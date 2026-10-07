@@ -1,10 +1,6 @@
 # Nanoindentation analysis
 
-This repository contains `NI_Analysis_NIvMPDpaper.py`, a Python workflow for
-processing Optics11 Chiaro nanoindentation measurements. It reads exported
-force-indentation curves, estimates mechanical and energy-related quantities
-for each indentation point, and produces diagnostic plots, summary tables,
-correlations, and spatial maps.
+This repository contains NI_Analysis_NIvMPDpaper.py, a Python workflow used to process Optics11 Chiaro nanoindentation measurements for the NI–MPD cardiac mechanics study. The workflow processes exported force–indentation curves, performs Hertz model fitting and fit-quality filtering, extracts Young’s modulus (E), and generates diagnostic plots and summary outputs.
 
 ## Code availability
 
@@ -15,9 +11,9 @@ public URL and, where available, its archived DOI or release.
 
 ## Requirements
 
-- Python 3.9 or newer is recommended. The script does not specify a tested
+- Python 3.9.7 or newer is recommended. The script does not specify a tested
   Python version or dependency versions.
-- Packages: `numpy`, `pandas`, `scipy`, and `matplotlib`.
+- Packages: `numpy`, `pandas`, `scipy`, `matplotlib` and 'openpyxl'
 - `openpyxl` is needed by pandas to write the Excel map workbook.
 
 Create an environment and install the dependencies with:
